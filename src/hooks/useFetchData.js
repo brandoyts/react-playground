@@ -26,7 +26,7 @@ const useFetchData = (pathName) => {
     };
   }, [pathName]);
 
-  return [data];
+  return data;
 };
 
 export default useFetchData;

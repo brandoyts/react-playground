@@ -2,7 +2,7 @@ import React from "react";
 import useFetchData from "../hooks/useFetchData";
 
 function Users({ location }) {
-  const [data] = useFetchData(location.pathname);
+  const data = useFetchData(location.pathname);
 
   return (
     <div className="users">
